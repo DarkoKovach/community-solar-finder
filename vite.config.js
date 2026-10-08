@@ -3,6 +3,8 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
+    // Set by the GitHub Pages workflow so assets resolve under /<repo>/
+    base: process.env.VITE_BASE ?? '/',
     plugins: [vue()],
 
     resolve: {
