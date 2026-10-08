@@ -1,0 +1,90 @@
+{
+    "app": {
+        "title": "Community Solar Projects",
+        "footer": "© 2025 Community Solar Finder",
+        "home": "Home"
+    },
+    "projects": {
+        "search": "Search Projects",
+        "filter": "Filter Projects",
+        "zipCode": "ZIP Code",
+        "state": "State",
+        "all": "All States",
+        "clear": "Clear Filters",
+        "error": "Error loading projects",
+        "title": "Find your community solar farm",
+        "subtitle": "Join the thousands of renters, homeowners, and businesses who save on their energy costs by subscribing to local solar farms. The community solar projects below are available to you based on your zip code.",
+        "loading": "Loading projects...",
+        "noResults": "No projects found"
+    },
+    "filters": {
+        "title": "Search Filters",
+        "zipCode": "ZIP Code",
+        "enterZipCode": "Enter ZIP code",
+        "state": "State",
+        "clear": "Clear",
+        "apply": "Apply Filters",
+        "selectState": "Select state"
+    },
+    "project": {
+        "loading": "Loading project details...",
+        "loadError": "Unable to load project details",
+        "location": "Location",
+        "developer": "Developer",
+        "utility": "Utility",
+        "savings": "Est. Savings",
+        "availability": "Availability",
+        "fullness": "{percent}% Full",
+        "learnMore": "Learn More",
+        "creditScore": "Min. Credit Score",
+        "signUpBonus": "Sign-up Bonus",
+        "fillingUp": "Filling Up",
+        "annualSavings": "Est. Annual Savings",
+        "status": "Project Status",
+        "statusActive": "Active",
+        "statusInactive": "Inactive",
+        "none": "None",
+        "noCancellationFees": "No cancellation fees",
+        "freeCancelDays": "Free to cancel with {days} days notice.",
+        "subscriptionBy": "Subscription Provided By",
+        "details": "Details",
+        "getStarted": "Get Started",
+        "unknownLocation": "Unknown location",
+        "expectedGoLive": "Expected Go Live",
+        "provider": "Provider",
+        "giftCardWhenSignUp": "$75 Gift card when you sign up",
+        "yourSavings": "Your Savings",
+        "annualCarbonOffset": "Annual Carbon Offset",
+        "tons": "tons",
+        "savingsExplanation": "Your estimated share and environmental impact are based on your monthly electric bill.",
+        "editYourInfo": "Edit your info",
+        "cancellationInfo": "Cancellation Info",
+        "cancellationFee": "Cancellation Fee",
+        "hasCancellationFees": "Has fees",
+        "noCancellationFeesExplanation": "No cancellation fees apply to this project.",
+        "cancellationExplanation": "For cancellations, contact {email} or call {phone} at least {days} days in advance.",
+        "billingInfo": "Billing Info",
+        "discountOffered": "Discount Offered",
+        "autoPayRequired": "Auto Pay Required",
+        "consolidatedBill": "Consolidated Bill",
+        "no": "No",
+        "billingExplanation": "In the dual-billing system, you will receive two electricity bills, one from your utility provider and one from the solar provider. The utility provider will bill you for the electricity you use, minus the solar credits from your solar farm share. PureSky will bill you only for the 10% discount.",
+        "theProject": "The Project",
+        "projectSize": "Project Size",
+        "remainingSpots": "Remaining Spots",
+        "energizedDescription": "This project is energized and producing power.",
+        "discount": "Discount",
+        "info": {
+            "discount": "This percentage represents your savings on electricity costs compared to standard utility rates.",
+            "status": "Indicates whether the project is currently active and accepting new subscribers.",
+            "creditScore": "The minimum credit score required to qualify for this project. 'None' means no credit check is required."
+        }
+    },
+    "pagination": {
+        "showing": "{start} - {end} of {total}"
+    },
+    "errors": {
+        "projectsLoadError": "Error loading projects",
+        "projectDetailError": "Error loading project details"
+    }
+}

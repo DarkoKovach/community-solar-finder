@@ -1,0 +1,63 @@
+// Suppress deprecation warnings for Bootstrap
+$deprecation-warnings: false;
+
+// Import custom variables first
+@import 'variables';
+
+// Import Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Import custom utilities
+@import 'utilities';
+
+// Global styles
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+// App container layout
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// Global container adjustments
+.container {
+    @media (min-width: 1400px) {
+        max-width: 1320px;
+    }
+}
+
+.info-popover-dark {
+    --bs-popover-max-width: 300px;
+    --bs-popover-bg: #000;
+    --bs-popover-body-color: #fff;
+    --bs-popover-header-bg: #212529;
+    --bs-popover-header-color: #fff;
+    --bs-popover-border-color: rgba(255, 255, 255, 0.2);
+}
+
+.info-popover-dark .popover-arrow::after {
+    border-top-color: #000;
+}

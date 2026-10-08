@@ -1,0 +1,90 @@
+{
+    "app": {
+        "title": "Proyectos Solares Comunitarios",
+        "footer": "© 2025 Buscador de Energía Solar Comunitaria",
+        "home": "Inicio"
+    },
+    "projects": {
+        "search": "Buscar Proyectos",
+        "filter": "Filtrar Proyectos",
+        "zipCode": "Código Postal",
+        "state": "Estado",
+        "all": "Todos los Estados",
+        "clear": "Borrar Filtros",
+        "error": "Error al cargar proyectos",
+        "title": "Encuentra tu granja solar comunitaria",
+        "subtitle": "Únete a miles de inquilinos, propietarios y empresas que ahorran en sus costos de energía suscribiéndose a granjas solares locales. Los proyectos solares comunitarios a continuación están disponibles para ti según tu código postal.",
+        "loading": "Cargando proyectos...",
+        "noResults": "No se encontraron proyectos"
+    },
+    "filters": {
+        "title": "Filtros de Búsqueda",
+        "zipCode": "Código Postal",
+        "enterZipCode": "Ingrese código postal",
+        "state": "Estado",
+        "clear": "Borrar",
+        "apply": "Aplicar Filtros",
+        "selectState": "Seleccionar estado"
+    },
+    "project": {
+        "loading": "Cargando detalles del proyecto...",
+        "loadError": "No se pudieron cargar los detalles del proyecto",
+        "location": "Ubicación",
+        "developer": "Desarrollador",
+        "utility": "Utilidad",
+        "savings": "Ahorros Est.",
+        "availability": "Disponibilidad",
+        "fullness": "{percent}% Lleno",
+        "learnMore": "Más Información",
+        "signUpBonus": "Bono de Registro",
+        "fillingUp": "Llenándose",
+        "annualSavings": "Ahorros Anuales Est.",
+        "status": "Estado del Proyecto",
+        "statusActive": "Activo",
+        "statusInactive": "Inactivo",
+        "creditScore": "Puntaje de Crédito Mín.",
+        "none": "Ninguno",
+        "noCancellationFees": "Sin tarifas de cancelación",
+        "freeCancelDays": "Cancelación gratuita con {days} días de aviso.",
+        "subscriptionBy": "Suscripción Proporcionada Por",
+        "details": "Detalles",
+        "getStarted": "Comenzar",
+        "unknownLocation": "Ubicación desconocida",
+        "expectedGoLive": "Fecha de Activación Esperada",
+        "provider": "Proveedor",
+        "giftCardWhenSignUp": "Tarjeta de regalo de $75 al registrarse",
+        "yourSavings": "Tus Ahorros",
+        "annualCarbonOffset": "Compensación Anual de Carbono",
+        "tons": "toneladas",
+        "savingsExplanation": "Tu participación estimada e impacto ambiental se basan en tu factura eléctrica mensual.",
+        "editYourInfo": "Editar tu información",
+        "cancellationInfo": "Información de Cancelación",
+        "cancellationFee": "Tarifa de Cancelación",
+        "hasCancellationFees": "Tiene tarifas",
+        "noCancellationFeesExplanation": "No se aplican tarifas de cancelación a este proyecto.",
+        "cancellationExplanation": "Para cancelaciones, contacta a {email} o llama al {phone} con al menos {days} días de anticipación.",
+        "billingInfo": "Información de Facturación",
+        "discountOffered": "Descuento Ofrecido",
+        "autoPayRequired": "Auto Pago Requerido",
+        "consolidatedBill": "Factura Consolidada",
+        "no": "No",
+        "billingExplanation": "En el sistema de facturación dual, recibirás dos facturas de electricidad, una de tu proveedor de servicios públicos y otra del proveedor solar. El proveedor de servicios te facturará por la electricidad que usas, menos los créditos solares de tu participación en la granja solar. PureSky te facturará solo por el descuento del 10%.",
+        "theProject": "El Proyecto",
+        "projectSize": "Tamaño del Proyecto",
+        "remainingSpots": "Lugares Restantes",
+        "energizedDescription": "Este proyecto está energizado y generando energía.",
+        "discount": "Descuento",
+        "info": {
+            "discount": "Este porcentaje representa su ahorro en costos de electricidad en comparación con las tarifas estándar de servicios públicos.",
+            "status": "Indica si el proyecto está actualmente activo y aceptando nuevos suscriptores.",
+            "creditScore": "La puntuación crediticia mínima requerida para calificar para este proyecto. 'Ninguno' significa que no se requiere verificación de crédito."
+        }
+    },
+    "pagination": {
+        "showing": "{start} - {end} de {total}"
+    },
+    "errors": {
+        "projectsLoadError": "Error al cargar proyectos",
+        "projectDetailError": "Error al cargar los detalles del proyecto"
+    }
+}
