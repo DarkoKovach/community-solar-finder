@@ -2,6 +2,8 @@
 
 A Vue.js application that helps users find and filter available community solar projects in their area. This single-page application consumes data from the EnergySage Community Solar API and presents it in an intuitive, user-friendly interface.
 
+**▶ Live demo: [darkokovach.github.io/community-solar-finder](https://darkokovach.github.io/community-solar-finder/)**
+
 ## Features
 
 - Browse available community solar projects
@@ -18,7 +20,7 @@ A Vue.js application that helps users find and filter available community solar 
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/DarkoKovach/community-solar-finder.git
 cd community-solar-finder
 ```
 
@@ -114,4 +116,4 @@ npm run build
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE
+This project is licensed under the MIT License - see [LICENSE](./LICENSE).
